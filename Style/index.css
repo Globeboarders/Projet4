@@ -1,0 +1,75 @@
+/****** General ***********/
+
+
+	.shrikhand-regular {
+		font-family: "Shrikhand", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+
+	.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+	:root {
+		--main-color: #9356DC;
+		--second-color: #FF79DA;
+		--third-color: #99E2D0;
+		--main-grey:#EAEAEA;
+		--second-grey: #F6F6F6;
+
+	}
+
+	body{
+		margin: 0px;
+	}
+
+	/****** Nav ***********/
+
+	nav{
+		display: flex;
+		align-items: center;
+		height: 63px;
+	}
+
+	nav .arrow{
+		padding-left: 20px;
+	}
+
+	nav img{
+		height: 36px;
+	}
+
+
+	/****** Ville ***********/
+
+	fieldset{
+		border-left: none;
+		border-right: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0px;
+		background-color: var(--main-grey);
+		height: 50px;
+	}
+
+	fieldset input{
+		border: none;
+		background-color: var(--main-grey);
+	}
+
+	/****** Header ***********/
+
+	/****** Section Fonctionnement ***********/
+
+	/****** Section Restaurant  ***********/
+
+	/****** Footer ***********/
+
+
+
+
+	/* Media queries */
+
