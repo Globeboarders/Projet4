@@ -1,23 +1,25 @@
 /****** General ***********/
 
-
-	.shrikhand-regular {
-		font-family: "Shrikhand", serif;
-		font-weight: 400;
-		font-style: normal;
-	  }
-
-	.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+	font-family: 'Roboto';
+	src: url(/Projet4/Style/Font/Roboto/Roboto-Regular.ttf) format(‘truetype’),
 }
-	:root {
-		--main-color: #9356DC;
-		--second-color: #FF79DA;
-		--third-color: #99E2D0;
-	}
 
+@font-face {
+	font-family: "Shrikhand";
+	src: url(/Projet4/Style/Font/Shrikhand/Shrikhand-Regular.ttf) format(‘truetype’),
+}
+
+
+:root {
+	--main-color: #9356DC;
+	--second-color: #FF79DA;
+	--third-color: #99E2D0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
 
 	/****** Nav ***********/
 
