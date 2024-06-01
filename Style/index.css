@@ -27,6 +27,10 @@
 		margin: 0px;
 	}
 
+	p{
+		font-size: 18px;
+	}
+
 	/****** Nav ***********/
 
 	nav{
@@ -66,10 +70,30 @@
 	/****** Header ***********/
 
 	header{
-		height: 179px;
 		background-color: var(--second-grey);
+		display: flex;
+		flex-direction: column;
+		width: auto;
 	}
 
+	header h1{
+		padding-top: 30px;
+		display: flex;
+		justify-content: center;
+	}
+
+	header p{
+		display: flex;
+		justify-content: center;
+	}
+
+	header div{
+		display: flex;
+		justify-content: center;
+		padding-bottom: 30px;
+	}
+
+	
 	.btn-explorer {
 		background: linear-gradient( #FF79DA, #9356DC);
 		border-radius: 20px;
@@ -79,6 +103,7 @@
 		text-align: center;
 		text-decoration: none;
 		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+		width: 30%;
 	}
 
 
