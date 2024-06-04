@@ -23,6 +23,25 @@ body {
 
 	/****** Nav ***********/
 
+
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: white;
+		padding: 10px 20px;
+	}
+	
+	
+	.navbar__center {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.navbar__center img{
+		height:36px;
+	}
 	/****** Header ***********/
 
 	/****** Section Fonctionnement ***********/
