@@ -13,7 +13,8 @@
 	:root {
 		--main-color: #9356DC;
 		--second-color: #FF79DA;
-		--third-color: #99E2D0;
+		--light-green-color: #99E2D0;
+		--dark-green-color: #008766;
 		--main-grey:#EAEAEA;
 		--second-grey: #F6F6F6;
 
@@ -127,7 +128,10 @@
 
 	/****** Section Fonctionnement ***********/
 
-	
+	section.fonctionnement{
+		margin-bottom: 70px;
+	}
+
 	.button-container {
 		display: flex;
 		align-items: center;
@@ -136,7 +140,7 @@
 		height: 72px;
 		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 		padding: 0px 40px;
-		margin: 20px;
+		margin: 30px;
 	}
 	
 	.circle {
@@ -150,7 +154,7 @@
 		align-items: center;
 		margin-right: 15px;
 		position: absolute;
-		left: 7px;
+		left: 17px;
 	}
 	
 	.button-content {
@@ -175,15 +179,59 @@
 	.restaurants{
 		background-color: var(--second-grey);
 		padding-top: 10px;
+		padding-bottom: 30px;
+	}
 
+	.card {
+		width: 300px;
+		border-radius: 15px;
+		overflow: hidden;
+		margin: 20px;
+		background-color: white;
+	}
+
+	.card img {
+		width: 100%;
+		height: 150px;
+	}
+
+	.card-content {
+		padding: 15px 15px 0px 15px;
+
+	}
+	.card-title {
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.card-text {
+		font-size: 17px;
+		font-weight: 300;
+	}
+	
+	.new-badge {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		background-color: var(--light-green-color);
+		color: var(--dark-green-color);
+		padding: 5px 10px;
+		border-radius: 2px;
+		font-size: 12px;
+	}
+
+	.coeur{
+		position: relative;
+		left: 235px;
+		bottom: 30px;
+	}
+
+	.heart{
 		
 	}
 
 
-
 	/****** Footer ***********/
-
-
 
 
 	/* Media queries */
