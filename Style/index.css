@@ -125,6 +125,47 @@
 
 	/****** Section Fonctionnement ***********/
 
+	
+	.button-container {
+		display: flex;
+		align-items: center;
+		background-color: var(--second-grey);
+		border-radius: 25px;
+		height: 72px;
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+		padding: 10px 20px;
+		margin: 20px;
+	}
+	
+	.circle {
+		background-color: var(--main-color);
+		color: white;
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-right: 15px;
+	}
+	
+	.button-content {
+		display: flex;
+		align-items: center;
+		
+	}
+
+	.button-content i{
+		color: #7E7E7E;
+		margin-right: 10px;
+	}
+	
+	.button-content__purple i{
+		color: var(--main-color);
+		margin-right: 10px;
+	}
+
+
 	/****** Section Restaurant  ***********/
 
 	.restaurants{
