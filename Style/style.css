@@ -42,11 +42,41 @@ body {
 	.navbar__center img{
 		height:36px;
 	}
-	/****** Header ***********/
-
-	/****** Section Fonctionnement ***********/
-
-	/****** Section Restaurant  ***********/
 
 	/****** Footer ***********/
 
+		.footer {
+			background-color: #353535;
+			color: white;
+			padding-top: 20px;
+			padding-bottom: 5px;
+			padding-left: 30px;
+			
+		}
+		.footer-content {
+			align-items: center;
+			justify-content: flex-start;
+		}
+		.logo p{
+			font-family: 'Shrikhand';
+			font-size: 1.5em;
+			margin: 7px;
+		}
+		
+		.footer-links {
+			list-style: none;
+			text-align: left;
+			padding: 0px;
+		}
+		.footer-links li {
+			margin: 10px;
+		}
+		
+		.footer-links i {
+			margin-right: 10px;
+		}
+	
+		.rotation{
+			transform: rotate(-45deg);
+		}
+		
