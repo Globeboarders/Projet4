@@ -1,14 +1,10 @@
 /****** General ***********/
 
 @font-face {
-	font-family: 'Roboto';
+	font-family: 'Roboto', "Shrikhand" , "sans-serif";
 	src: url(/Projet4/Style/Font/Roboto/Roboto-Regular.ttf) format(‘truetype’),
 }
 
-@font-face {
-	font-family: "Shrikhand";
-	src: url(/Projet4/Style/Font/Shrikhand/Shrikhand-Regular.ttf) format(‘truetype’),
-}
 
 	:root {
 		--main-color: #9356DC;
@@ -17,7 +13,6 @@
 		--dark-green-color: #008766;
 		--main-grey:#EAEAEA;
 		--second-grey: #F6F6F6;
-
 	}
 
 	body{
@@ -188,6 +183,7 @@
 		overflow: hidden;
 		margin: 20px;
 		background-color: white;
+		
 	}
 
 	.card img {

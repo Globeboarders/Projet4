@@ -14,7 +14,10 @@
 :root {
 	--main-color: #9356DC;
 	--second-color: #FF79DA;
-	--third-color: #99E2D0;
+	--light-green-color: #99E2D0;
+	--dark-green-color: #008766;
+	--main-grey:#EAEAEA;
+	--second-grey: #F6F6F6;
 }
 
 body {
@@ -78,5 +81,7 @@ body {
 	
 		.rotation{
 			transform: rotate(-45deg);
+			width: 5px;
+			padding-right: 10px;
 		}
 		
