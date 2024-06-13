@@ -1,7 +1,10 @@
 
+body{
+	margin: 0px;
+		
+	}
+	
 	/****** Nav ***********/
-
-
 	.navbar {
 		display: flex;
 		align-items: center;
@@ -9,18 +12,14 @@
 		background-color: white;
 		padding: 25px 0px 10px 0px;
 	}
-	
-	
 	.navbar__center {
 		flex: 1;
 		display: flex;
 		justify-content: center;
 	}
-	
 	.navbar__center img{
 		height:36px;
 	}
-
 	/****** Footer ***********/
 
 		.footer {
@@ -29,7 +28,6 @@
 			padding-top: 20px;
 			padding-bottom: 5px;
 			padding-left: 30px;
-			
 		}
 		.footer-content {
 			align-items: center;
