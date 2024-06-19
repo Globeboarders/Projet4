@@ -184,7 +184,25 @@
 	.coeur-full img{
 		height: 20px;
 		width: 22px;
+
+	}
+
+	.coeur :hover{
+		display: none;
 	}
 
 	/* Media queries */
 
+
+	
+	/* test git hub */
+
+   	.inner-heart {
+        background: linear-gradient( #FF79DA, #9356DC);
+        background-clip: text;
+        color: transparent;
+        font-size: 1.5rem;
+        right: 0;
+        transform: scale(0);
+        transition: all 0s;
+    }

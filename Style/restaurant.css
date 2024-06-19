@@ -1,187 +1,90 @@
 
 
-	/****** Ville ***********/
+	/****** La pelette du gout ***********/
 
-	fieldset{
-		border:none;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	body{
 		margin: 0px;
-		background-color: var(--main-grey);
-		height: 50px;
-		padding: 0px;
-		box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-	}
-
-	fieldset input{
-		border: none;
-		background-color: var(--main-grey);
-	}
-
-	.rechercher-ville{
-		font-size: 16px;
-		font-weight: 500;
-		padding-left: 20px;
-	}
-
-	/****** Header ***********/
-
-	header{
-		background-color: var(--second-grey);
-		display: flex;
-		flex-direction: column;
-		width: auto;
-	}
-
-	header h1{
-		padding-top: 30px;
-		display: flex;
-		justify-content: center;
-		margin-left: 50px;
-		margin-right: 50px;
-		text-align: center;
-	}
-
-	header p{
-		display: flex;
-		justify-content: center;
-		text-align: center;
-		margin-left: 30px;
-		margin-right: 30px;
-	}
-
-	header div{
-		display: flex;
-		justify-content: center;
-		padding-bottom: 50px;
-		padding-top: 20px;
-	}
-
-	
-	.btn-explorer {
-		background: linear-gradient( #FF79DA, #9356DC);
-		border-radius: 40px;
-		color: white;
-		font-size: 16px;
-		padding: 0px 5px;
-		text-align: center;
-		text-decoration: none;
-		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-		width: 218px;
-		height: 50px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-
-	/****** Section Fonctionnement ***********/
-
-	section.fonctionnement{
-		margin-bottom: 70px;
-	}
-
-	.button-container {
-		display: flex;
-		align-items: center;
-		background-color: var(--second-grey);
-		border-radius: 25px;
-		height: 72px;
-		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-		padding: 0px 40px;
-		margin: 30px;
 	}
 	
-	.circle {
-		background-color: var(--main-color);
-		color: white;
-		width: 24px;
-		height: 24px;
-		border-radius: 50%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin-right: 15px;
-		position: absolute;
-		left: 17px;
-	}
-	
-	.button-content {
-		display: flex;
-		align-items: center;
-		
-	}
-
-	.button-content i{
-		color: #7E7E7E;
-		margin-right: 10px;
-	}
-	
-	.button-content__purple i{
-		color: var(--main-color);
-		margin-right: 10px;
-	}
-
-
-	/****** Section Restaurant  ***********/
-
-	.restaurants{
-		background-color: var(--second-grey);
-		padding-top: 10px;
-		padding-bottom: 50px;
-	}
-
-	.card {
-		width: 90%;
-		border-radius: 15px;
-		overflow: hidden;
-		margin: 20px;
-		background-color: white;
-		
-	}
-
-	.card img {
+	.background {
 		width: 100%;
-		height: 200px;
-		object-fit: cover;
-	}
-
-	.card-content {
-		padding: 15px 15px 0px 15px;
-
-	}
-	.card-title {
-		font-size: 18px;
-		font-weight: 700;
-	}
-
-	.card-text {
-		font-size: 17px;
-		font-weight: 300;
+		height: auto;
 	}
 	
-	.new-badge {
-		position: absolute;
-		top: 10px;
-		right: 10px;
-		background-color: var(--light-green-color);
-		color: var(--dark-green-color);
-		padding: 5px 10px;
-		border-radius: 2px;
-		font-size: 12px;
-	}
-
-	.coeur{
+	.menu {
 		position: relative;
-		left: 90%;
-		bottom: 30px;
+		background: var(--second-grey);
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+		margin-top: -50px;
+		padding: 30px;
+		box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
 	}
-
-	.coeur-full img{
-		height: 20px;
-		width: 22px;
+	
+	.title {
+		font-family: 'Shrikhand';
+		weight:400; 
+		font-size: 28px;
+		margin: 0;
+		display: inline-block;
+	}
+	
+	.heart {
+		float: right;
+		font-size: 24px;
+	}
+	
+	h3 {
+		margin-top: 30px;
+		font-size: 16px;
+		border-bottom: 2px solid #B2DFDB;
+		display: inline-block;
+		padding-bottom: 5px;
+	}
+	
+	.dish {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px 0;
+		border-bottom: 1px solid #eee;
+	}
+	
+	.dish:last-child {
+		border-bottom: none;
+	}
+	
+	
+	.dish-description {
+		font-size: 15px;
+	}
+	
+	.dish-price {
+		font-weight: bold;
+		color: #000;
 	}
 
 	/* Media queries */
 
+	/* test cad */
+	
+	.card {
+		background-color: white;
+		border-radius: 20px;
+		padding: 5px;
+		filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+		width: 90%;
+	}
+
+	.card-content {
+		width: 80%;
+		padding-left: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		box-sizing: border-box;
+	}
+
+	.card-title {
+		font-size: 16px;
+	}
